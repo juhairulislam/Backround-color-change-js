@@ -1,0 +1,130 @@
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: green;
+}
+
+.container-btn-div{
+    margin: 0 10%;
+    /* border: 1px solid red; */
+    padding: 10% 2%;
+}
+
+.container-btn {
+    /* border: 1px solid green; */
+    padding: 2%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 40px;
+    /* background-color: blanchedalmond; */
+}
+
+@media screen and (max-width:576px){
+
+    .container-btn{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+
+
+#btn-1{
+    font-weight: 800;
+    background-color:black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+#btn-2{
+    font-weight: 800;
+    background-color:yellow;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+     border: none;
+    
+}
+#btn-3{
+    font-weight: 800;
+    background-color:red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+#btn-4{
+    font-weight: 800;
+    background-color:green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+     border: none;
+}
+
+#btn-5{
+    font-weight: 800;
+    background-color:purple;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+     border: none;
+}
+#btn-6{
+    font-weight: 800;
+    background-color:cyan;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+     border: none;
+}
+#btn-7{
+    font-weight: 800;
+    background-color:violet;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+     border: none;
+}
+#btn-8{
+    font-weight: 800;
+    background-color:lightgray;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+     border: none;
+}
+#btn-9{
+    font-weight: 800;
+    background-color:orange;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+     border: none;
+}
+#btn-9-1{
+    font-weight: 800;
+    background-color:cornflowerblue;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+     border: none;
+}
+#btn-10{
+    font-weight: 800;
+    background-color:blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+     border: none;
+}
+#btn-11{
+    font-weight: 800;
+    background-color:white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+     border: none;
+}
