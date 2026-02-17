@@ -1,14 +1,15 @@
 h1{
     text-align: center;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30px;
     color: green;
+    margin-top: 30px;
 }
 
 .container-btn-div{
-    margin: 0 10%;
+    margin: 0 auto;
     /* border: 1px solid red; */
-    padding: 10% 2%;
+    padding: 3% 2%;
 }
 
 .container-btn {
@@ -127,4 +128,24 @@ h1{
     padding: 10px 10px;
     border-radius: 10px;
      border: none;
+}
+
+.welcome{
+    /* border: 2px solid red; */
+    /* padding: 5%; */
+    text-align: center;
+}
+
+#p{
+    font-size: 35px;
+    color: coral;
+    font-weight: 700;
+}
+
+#btn{
+    background-color: coral;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 5px;
 }

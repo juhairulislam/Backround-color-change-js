@@ -56,3 +56,17 @@ document.getElementById('btn-10').addEventListener('click', function(){
 document.getElementById('btn-11').addEventListener('click', function(){
     document.body.style.backgroundColor = 'white'
 })
+
+
+document.getElementById('btn').addEventListener('click',
+    function(){
+
+        let input = document.getElementById('input');
+
+        let inputValue = input.value;
+
+        let pta = document.getElementById('p');
+
+        pta.innerText = ('Hello ') + inputValue  + (' !')
+
+})
